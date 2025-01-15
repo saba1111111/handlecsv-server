@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "libs/cache/(.*)": "<rootDir>/../libs/cache/src/$1",
+    "libs/cache": "<rootDir>/../libs/cache/src",
+    "libs/orders/(.*)": "<rootDir>/../libs/orders/src/$1",
+    "libs/orders": "<rootDir>/../libs/orders/src"
+  }
+}
