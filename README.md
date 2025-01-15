@@ -12,8 +12,8 @@ To run this project, ensure you have the following installed on your local machi
 1. Clone the project repository:
 
    ```bash
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/saba1111111/handlecsv-server.git
+   cd handlecsv-server
    ```
 
 2. Run the project using Docker Compose:
